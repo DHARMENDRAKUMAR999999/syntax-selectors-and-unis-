@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> HTML FORM </title>
+<style>
+    .input{
+        border-radius: 40px;
+    }
+</style>
+    
+        
+    </head>
+<body>
+    <form style="border:5px;">
+<!--label for defining user information -->
+<label id="name-label" for="name" style="color: green;">Name </label><br>
+<!--input with required fields-->
+<input  type="text" name="name" id="name" placeholder="Enter your name" required> <br><br>
+<!--label for defining user information -->
+
+<label id="email-label" for="Email" style="color: green;" >Email</label><br>
+<!--input with required fields-->
+<input type="email" name="email" id="email" placeholder="test@gmail.com" required><br><br>
+<!--label for defining user information -->
+<label id="number-label" for="number" style="color: green;">Roll no</label><br>
+<!--input with required fields-->
+<input type="number" name="number" id="number" placeholder="roll"min="0" max="100" required><br><br>
+<!--label for defining user information-->
+<label for="drop-down" style="color: green;">How do you rate our courses </label><br>
+<!--drop-down-->
+<select name="drop-down" id="drop-down">
+    <option value="Excellent">excellents</option>
+    <option value="Good">Good
+
+    </option>
+    <option value="Fair">Fair
+
+    </option>
+    <option value="Poor">Poor
+
+    </option>
+    </select> <br><br>
+    <!--label for defining user information -->
+    <label style="color: green;"> Your Tavorite Topic in HTML</label> <br>
+    <!--checkbox-->
+    <input type="checkbox" name="topica 1" value="structuralel element ">Structural element <br>
+    <input type="checkbox" name="topic 2" value="linksandlist">Links and List<br>
+    <input type="checkbox" name="topic 3" value="media">HTML Media<br>
+    <input type="checkbox" name="topic 4" value="tables">HTML Table <br><br>
+    <input type="checkbox" name="topic 5" value="groupelement"> Grouping Elements <br>
+    <input type="checkbox" name="topic 6" value="forms">Forms<br><br>
+    <!--label for defining user information -->
+    <label style="color: green;">Do You like the html course </label> <br>
+    <!--radio button-->
+    <input type="radio" name="course" value="yes">yes
+    <input type="radio" name="course" value="NO">No <br><br>
+    <!--label for defining user information-->
+    <label style="color: green;"> Few words about course</label> <br>
+    <!--text area-->
+    <textarea rows="5" cols="50" name="description" id="Description" id="Description"></textarea><br><br>
+    <!--button with alert-->
+    <button type="button" onclick="alert('validating')" style="color: green;">Submit</button>
+
+    </form>
+</body>
+</html>
